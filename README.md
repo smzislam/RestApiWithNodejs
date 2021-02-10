@@ -11,11 +11,12 @@ An example about how to create a RESTful API using Express.js and mongodb
   ## Generating auth_token
     01. Create a new User using post method at http://localhost:3000/api/user (you can easily do that using postman). 
         Send the json data as a request like bellow:
+        ```JavaScript
         {            
            "name": "Zara Islam",
            "email": "zara@gmail.com",
            "password": "123456"
-        }
+        }```
     02. Login using post method at http://localhost:3000/login
         Use the json data as a request like bellow:
           {
